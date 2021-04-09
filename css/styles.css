@@ -301,7 +301,7 @@ Hero
   padding: 0.9rem 1.6rem;
   font-size: 1.25rem;
   background-color: var(--clr-white);
-  color: var(--clr-primary-5);
+  color: red;
 }
 .hero-btn:hover {
   background: transparent;
