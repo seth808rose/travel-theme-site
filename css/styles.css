@@ -230,7 +230,7 @@ Navbar
   height: 280px;
 }
 @media screen and (min-width: 992px) {
-  .navbar{
+  .navbar {
     padding: 1rem 2rem;
   }
   .nav-toggle {
@@ -276,6 +276,8 @@ Hero
 ===============
 */
 .hero {
+  background: linear-gradient(rgb(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/main.jpeg") center/cover no-repeat;
   min-height: 100vh;
   background-color: var(--clr-primary-5);
   display: flex;
@@ -308,7 +310,7 @@ Hero
   color: var(--clr-white);
   border-color: var(--clr-white);
 }
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .hero {
     background: linear-gradient(rgb(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7)),
       url("../images/main.jpeg") center/cover no-repeat;
@@ -319,7 +321,7 @@ Hero
   .hero-banner p {
     max-width: 45rem;
   }
-}
+} */
 /*
 =============== 
 About
